@@ -1,4 +1,8 @@
-@import url("https://www.fonts.com/font/ardyanatypes/the-sunmora/black");
+@font-face {
+    font-family: sunmora;
+    src: url('fonts/sunmora.ttf');
+}
+
 @keyframes promoBlockIcon {
     0% {
         opacity: 0;
