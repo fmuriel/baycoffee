@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap -->
+
+    <!-- jQuery -->
+    <link href="vendors/js/code.jquery.com_jquery-3.7.0.min.js">
+    <!-- jQuery -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/smart_cart.css" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+
+    <!-- Plugin + Carrito -->
+    <script src="vendors/js/jquery-3.7.0.min"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="vendors/js/jquery.smartCart.js"></script>
+    <script src="vendors/js/productos.js"></script>
+    <!-- Plugin + Carrito -->
+
+    <!-- Barba plugin -->
+    <!-- unpkg -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <!-- jsdelivr -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <!-- Barba plugin -->
+
+    <title>Productos</title>
+</head>
+
+<body data-barba="wrapper">
+
+    <div class="promo-block">
+        <img src="images/Home/icono-delivery.png" alt="Camión de delivery" class="me-3">
+        <p class="no-pm">Envio gratis con tu comprar superior a $5500</p>
+    </div>
+
+    <!--Header Desktop -->
+    <header class="py-3 only-desktop">
+        <div class="container d-flex flex-wrap justify-content-center align-items-center">
+            <a href="/" class="d-flex align-items-center mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+                <h1>
+                    <span class="hidden--visually">Bay Coffee</span>
+                    <img src="images/bc-logo.png" alt="Logo de Bay Coffee">
+                </h1>
+            </a>
+            <nav class="">
+                <div class="container d-flex flex-wrap">
+                    <ul class="nav me-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link link-secondary px-2 active"
+                                aria-current="page">Home</a></li>
+                        <li class="nav-item nav-bar-links"><a href="about_us.html"
+                                class="nav-link link-secondary px-2">Acerca de
+                                nosotros</a>
+                        </li>
+                        <li class="nav-item nav-bar-links"><a href="faqs.html"
+                                class="nav-link link-secondary px-2">Preguntas
+                                Frecuentes</a></li>
+                        <li class="nav-item nav-bar-links"><a href="contacto.html"
+                                class="nav-link link-secondary px-2">Contacto</a></li>
+                        <li class="nav-item nav-bar-links"><a href="shop.html"
+                                class="nav-link link-body-emphasis px-2"><img class="icono-grano me-2"
+                                    src="images/Home/icono-grano.png" alt="Icono de grano de café"><strong>Comprar mi
+                                    café</strong><img class="icono-grano ms-2" src="images/Home/icono-grano.png"
+                                    alt="Icono de grano de café"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--Header Desktop-->
+
+    <!--Header Mobile-->
+    <header class="only-mobile">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand no-pm" href="#">
+                    <h1>
+                        <span class="hidden--visually">Bay Coffee</span>
+                        <img src="images/bc-logo.png" alt="Logo de Bay Coffee">
+                    </h1>
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faqs.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item nav-bar-links"><a href="shop.html"
+                                class="nav-link link-body-emphasis px-2"><img class="icono-grano me-2"
+                                    src="images/Home/icono-grano.png" alt="Icono de grano de café"><strong>Comprar mi
+                                    café</strong><img class="icono-grano ms-2" src="images/Home/icono-grano.png"
+                                    alt="Icono de grano de café"></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Header Mobile-->
+
+    <main data-barba="container" data-barba-namespace="shop">
+    <!-- banner -->
+    <div id="banner-shop" class="text-light d-flex align-items-center justify-content-center">
+        <h2>Productos</h2>
+    </div>
+    <!-- Introducción-->
+
+    <div class="py-4">
+        <section>
+            <div class="container">
+                <div class="column">
+                    <h3>Nuestros originales cafés de la bahía</h3>
+                    <p>Con nosotros podés disfrutar de una amplia selección de cafés de alta calidad, desde la comodidad de tu
+                        hogar. Explora nuestra variedad de tipos de café, cada uno con su propio perfil de sabor y lugar de
+                        origen. Desde el suave y afrutado café etíope hasta el intenso y chocolateado café colombiano, hay
+                        algo para todos los gustos. Además, te ofrecemos diferentes puntos de tostado para satisfacer tus
+                        preferencias individuales, desde un tostado claro y delicado hasta un tostado oscuro y audaz.
+                        Trabajamos directamente con agricultores apasionados en diversas regiones del mundo para garantizar
+                        que nuestros granos sean de la más alta calidad y cultivados de manera sostenible.</p>
+                    <p>¡Descubrí el verdadero placer del café en BayCoffe!</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Shop-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <div id="smartcart1"></div>
+                    </div>
+                    <div class="col-md-9">
+                        <div id="catalogo" class="row">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 pt-4">
+                        <div id="smartcart"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            for (let i = 0; i < prod.length; i++) {
+                $('#catalogo').append(
+
+                    '<div class="col-lg-4 col-md-6 col-sm-6 py-2 my-4">' +
+                    '<article class="card sc-product-item rounded-0 align-items-center text-center">' +
+                    '<img data-name="image"  src="images/Shop/' + prod[i]['foto'] + '" class="card-img-top rounded-0 img-coffee-bags" alt="' + prod[i]['alt'] + '">' +
+                    '<div class="card-shop align-items-center text-center">' +
+                    '<h4 data-name="name" class="card-title h5 text-uppercase text-center mb-1 mt-3">' + prod[i]['nombre'] + '</h4>' +
+                    '<div class="text-center align-self-center border-bottom mt-0 pb-2">' + prod[i]['estrellas'] + '</div>' +
+                    '<div class="no-pm text-center mt-3 pb-0">' +
+                    '<h5 id="prod-text">Tostado: <span class="text-uppercase">' + prod[i]['tost-text'] + '</span></h5>' +
+                    '<input name="product_price" value="' + prod[i]['precio'] + '" type="hidden">' +
+                    '<input name="product_id" value="' + i + prod[i]['precio'] + '" type="hidden">' +
+                    '<p class"card-text"><span style="font-size: 16px"> $' + prod[i]['precio'] + '</span></p>' +
+                    '</div>' +
+                    '<button class="text-center align-items-center sc-add-to-cart btn btn-outline-secondary rounded-0">Agregar al carrito</button>' +
+                    '</div>' +
+                    '</article>' +
+                    '</div>',
+                )
+            }
+            $('#smartcart').smartCart({
+                cartItemTemplate:
+                    '<div class="container">' +
+                    '<div class="column">' +
+                    '<img id="carrito-foto" src="{image}"/>' +
+                    '<div class="column">' +
+                    '<h4 class="list-group-item-heading">{name}</h4>' +
+                    '<p class="list-group-item-text"> ${product_price}</p>' +
+                    '</div>' +
+                    '</div>' +
+                    '</div>',
+                lang: {
+                    cartTitle: "Carrito de Compras",
+                    checkout: 'Comprar',
+                    clear: 'Limpiar',
+                    subtotal: 'Subtotal:',
+                    cartRemove: '×',
+                    cartEmpty: '¡No tenés ningún café en el carrito!',
+                }
+            });
+            $('#smartcart1').smartCart({
+                cartItemTemplate:
+                    '<div class="container">' +
+                    '<div class="column">' +
+                    '<img id="carrito-foto" src="{image}"/>' +
+                    '<div class="">' +
+                    '<h4 class="list-group-item-heading">{name}</h4>' +
+                    '<p class="list-group-item-text"> ${product_price}</p>' +
+                    '</div>' +
+                    '</div>' +
+                    '</div>',
+                lang: {
+                    cartTitle: "Carrito de Compras",
+                    checkout: 'Comprar',
+                    clear: 'Limpiar',
+                    subtotal: 'Subtotal:',
+                    cartRemove: '×',
+                    cartEmpty: '¡No tenés ningún café en el carrito!',
+                }
+            });
+        });
+    </script>
+    <!-- modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- form -->
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <label for="secondName" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" aria-label="Last name">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputEmail4" class="form-label">Mail</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Av. Corrientes 1598">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Ciudad</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Provincia</label>
+                            <input type="text" class="form-control" id="inputState">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">Recordar datos</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Finalizar compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <footer class="bg-dark px-3 py-4">
+        <h3 class="header-footer ps-2 pb-3 m-0">Gracias por elegirnos 🩵</h3>
+        <hr style="color: white;">
+
+        <div class="footer-info">
+            <div class="container mb-3">
+                <div class="row">
+                    <div class="container">
+                        <div id="footer-about" class="mt-3 mb-3">
+                            <h4 id="footer-title" class="">Sobre BayCoffe&#8482</h4>
+                            <ul
+                                class="list-group flex-column list-group-flush list-unstyled link-underline-opacity-0 link-opacity-75-hover">
+                                <li class="list-group-item border-0 bg-dark ps-0 ms-0">
+                                    <a href="" target="new" class="link-light">About us</a>
+                                </li>
+                                <li class="list-group-item border-0 bg-dark ps-0 ms-0">
+                                    <a href="" target="new" class="link-light">Productos</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="footer-ayuda" class="mb-3">
+                            <h4 id="footer-title" class="">Ayuda</h4>
+                            <ul
+                                class="list-group flex-column list-group-flush list-unstyled link-underline-opacity-0 link-opacity-75-hover">
+                                <li class="list-group-item border-0 bg-dark ps-0 ms-0">
+                                    <a href="contacto.html" class="link-light">Contactanos</a>
+                                </li>
+                                <li class="list-group-item border-0 bg-dark ps-0 ms-0">
+                                    <a href="" target="new" class="link-light">Preguntas Frecuentes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container mb-3 contacto">
+                        <h4 class="m-0 p-0 pb-3">Sigamos en contacto</h4>
+                        <ul class="m-0 p-0 row">
+                            <li class="ps-0 col py-2"><a href="https://www.instagram.com/" target="_blank">
+                                    <img src="images/Footer/logo-ig-white.png" alt="Logo de Instagram"></a></li>
+                            <li class="col py-2"><a href="https://www.facebook.com/" target="_blank">
+                                    <img src="images/Footer/logo-fb-white.png" alt="Logo de Facebook"></a></li>
+                            <li class="col py-2"><a href="https://www.twitter.com/" target="_blank">
+                                    <img src="images/Footer/logo-tw-white.png" alt="Logo de Twitter"></a></li>
+                            <li class="pe-0 col py-2"><a href="https://www.spotify.com/" target="_blank">
+                                    <img src="images/Footer/logo-spotify-white.png" alt="Logo de Spotify"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr style="color: white;">
+            <div class="container text-light pt-3">
+                <h4 class="m-0 p-0 pb-2">Diseñado y programado con 💜 por</h4>
+                <ul class="ps-0 ms-0">
+                    <li class="text-danger sunmora">Isabella Canale</li>
+                    <li class="text-warning sunmora">Beska Martinez</li>
+                    <li class="text-success sunmora">Iara Vicent</li>
+                    <li class="text-primary sunmora">Florencia Vilchez</li>
+                </ul>
+                <p>ORT - Desarrollo II y Programación II <br>
+                    1°2°B 2023</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

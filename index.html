@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS -->
+
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
+    <!-- jQuery -->
+
+    <!-- Plugin nanogallery2 -->
+    <link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet"
+        type="text/css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+    <!-- Plugin nanogallery2 -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+    <title>Home</title>
+</head>
+
+<body >
+    <div class="promo-block">
+        <img src="images/Home/icono-delivery.png" alt="Camión de delivery" class="me-3">
+        <p class="no-pm">Envio gratis con tu comprar superior a $5500</p>
+    </div>
+
+    <!--Header Desktop -->
+    <header class="py-3 only-desktop">
+        <div class="container d-flex flex-wrap justify-content-center align-items-center">
+            <a href="/" class="d-flex align-items-center mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+                <h1>
+                    <span class="hidden--visually">Bay Coffee</span>
+                    <img src="images/bc-logo.png" alt="Logo de Bay Coffee">
+                </h1>
+            </a>
+            <nav class="">
+                <div class="container d-flex flex-wrap">
+                    <ul class="nav me-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link link-secondary px-2 active"
+                                aria-current="page">Home</a></li>
+                        <li class="nav-item nav-bar-links"><a href="about_us.html"
+                                class="nav-link link-secondary px-2">Acerca de
+                                nosotros</a>
+                        </li>
+                        <li class="nav-item nav-bar-links"><a href="faqs.html"
+                                class="nav-link link-secondary px-2">Preguntas
+                                Frecuentes</a></li>
+                        <li class="nav-item nav-bar-links"><a href="contacto.html"
+                                class="nav-link link-secondary px-2">Contacto</a></li>
+                        <li class="nav-item nav-bar-links"><a href="shop.html"
+                                class="nav-link link-body-emphasis px-2"><img class="icono-grano me-2"
+                                    src="images/Home/icono-grano.png" alt="Icono de grano de café"><strong>Comprar
+                                    mi
+                                    café</strong><img class="icono-grano ms-2" src="images/Home/icono-grano.png"
+                                    alt="Icono de grano de café"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--Header Desktop-->
+
+    <!--Header Mobile-->
+    <header class="only-mobile">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand no-pm" href="#">
+                    <h1>
+                        <span class="hidden--visually">Bay Coffee</span>
+                        <img src="images/bc-logo.png" alt="Logo de Bay Coffee">
+                    </h1>
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faqs.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item nav-bar-links"><a href="shop.html"
+                                class="nav-link link-body-emphasis px-2"><img class="icono-grano me-2"
+                                    src="images/Home/icono-grano.png" alt="Icono de grano de café"><strong>Comprar
+                                    mi
+                                    café</strong><img class="icono-grano ms-2" src="images/Home/icono-grano.png"
+                                    alt="Icono de grano de café"></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Header Mobile-->
+
+    <main>
+        <!-- Hero -->
+        <div class="hero setup-background hero-src">
+            <h2 class="display-3 fw-bold">Tostamos, servimos, amamos</h2>
+            <p>Del grano a tu mesa, recolectado por expertos y amantes del café de especialidad</p>
+            <a href="shop.html" class="btn btn-light btn-lg rounded-0 align-self-center">Comprar mi café</a>
+        </div>
+        <!-- Hero -->
+
+        <!--Cards w/coffee -->
+        <section>
+            <div class="examples-store px-3 py-4 text-center">
+                <h3 class="m-0 pb-4">Mi BayCoffee&#8482;</h3>
+                <div class="coffee-cards-container">
+                    <div class="coffee-cards">
+                        <div class="card rounded-0 mb-3">
+                            <img src="images/Home/item-espresso.jpg" class="card-img-top rounded-0 img-coffee-bags"
+                                alt="Bolsa de café Espress BayCoffee">
+                            <div class="card-shop align-items-center justify-content-center">
+                                <h4 class="card-title h5 text-uppercase text-center">Espresso <br>BayCoffee&#8482;</h4>
+                                <img src="images/Home/puntuacion-5.png" class="border-bottom align-self-center pb-3"
+                                    alt="Puntuación de cuatro estrellas">
+
+                                <ul class="no-pm text-center pt-2 pb-2">
+                                    <li>Tostado: <span class="text-uppercase fw-medium">liviano</span></li>
+                                    <li>$2800</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline-secondary rounded-0">Agregar al carrito</a>
+                            </div>
+                        </div>
+                        <div class="card rounded-0 mb-3">
+                            <img src="images/Home/item-verona.jpg" class="card-img-top rounded-0 img-coffee-bags"
+                                alt="Bolsa de café Verona">
+                            <div class="card-shop align-items-center justify-content-center">
+                                <h4 class="card-title h5 text-uppercase text-center">Caffé <br>Verona</h4>
+                                <img src="images/Home/puntuacion-4.png" class="border-bottom align-self-center pb-3"
+                                    alt="Puntuación de cuatro estrellas">
+
+                                <ul class="no-pm text-center pt-2 pb-2">
+                                    <li>Tostado: <span class="text-uppercase fw-medium">intenso</span></li>
+                                    <li>$2500</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline-secondary rounded-0">Agregar al
+                                    carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coffee-cards">
+                        <div class="card rounded-0 mb-3">
+                            <img src="images/Home/item-catalina.jpg" class="card-img-top rounded-0 img-coffee-bags"
+                                alt="Bolsa de café Catalina">
+                            <div class="card-shop align-items-center justify-content-center">
+                                <h4 class="card-title h5 text-uppercase text-center">Colombia <br>La Catalina</h4>
+                                <img src="images/Home/puntuacion-5.png" class="border-bottom align-self-center pb-3"
+                                    alt="Puntuación de cuatro estrellas">
+
+                                <ul class="no-pm text-center pt-2 pb-2">
+                                    <li>Tostado: <span class="text-uppercase fw-medium">medio</span></li>
+                                    <li>$2600</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline-secondary rounded-0">Agregar al carrito</a>
+                            </div>
+                        </div>
+                        <div class="card rounded-0 mb-3">
+                            <img src="images/Home/item-etiopia.jpg" class="card-img-top rounded-0 img-coffee-bags"
+                                alt="Bolsa de café Etiopía">
+                            <div class="card-shop align-items-center justify-content-center">
+                                <h4 class="card-title h5 text-uppercase text-center">Etiopía <br>Yrgacheffe</h4>
+                                <img src="images/Home/puntuacion-4.png" class="border-bottom align-self-center pb-3"
+                                    alt="Puntuación de cuatro estrellas">
+
+                                <ul class="no-pm text-center pt-2 pb-2">
+                                    <li>Tostado: <span class="text-uppercase fw-medium">medio</span></li>
+                                    <li>$2200</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline-secondary rounded-0">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="shop.html" class="btn btn-lg btn-secondary align-self-center rounded-0 mt-1">Ver más
+                    variedades</a>
+            </div>
+        </section>
+        <!--Cards w/coffee -->
+
+        <!-- IMGs gallery -->
+        <div class="gallery py-4">
+            <h3 class="text-center text-black pb-2">Con vos, en cada café</h3>
+            <p>En el desayuno, después de tus comidas, en la merienda, en las madrugadas de estudio, junto a quienes más querés, Bay Coffe&#8482; te acompaña con sus mejores granos seleccionados por expertos del café. Te invitamos a confiar en nuestros quince años de experiencia en atención al cliente y café.
+            </p>
+            <div ID="ngy2p" data-nanogallery2='{
+        "itemsBaseURL": "images/Gallery/",
+        "thumbnailWidth": "200",
+        "thumbnailBorderVertical": 0,
+        "thumbnailBorderHorizontal": 0,
+        "colorScheme": {
+          "thumbnail": {
+            "background": "rgba(76,187,190,1)"
+          }
+        },
+        "thumbnailLabel": {
+          "position": "overImageOnBottom",
+          "display": false
+        },
+        "thumbnailAlignment": "center",
+        "thumbnailOpenImage": true
+      }'>
+                <a href="barista-sirviendo-agua.jpg" data-ngthumb="barista-sirviendo-agua.jpg" data-ngdesc="">Berlin
+                    1</a>
+                <a href="barista-sirviendo-cafe.jpg" data-ngthumb="barista-sirviendo-cafe.jpg" data-ngdesc="">Berlin
+                    2</a>
+                <a href="barista-usando-mastrenna.jpg" data-ngthumb="barista-usando-mastrenna.jpg" data-ngdesc="">Berlin
+                    3</a>
+                <a href="barista-virtiendo-leche.jpg" data-ngthumb="barista-virtiendo-leche.jpg" data-ngdesc="">Berlin
+                    1</a>
+                <a href="filtro-turquesa.jpg" data-ngthumb="filtro-turquesa.jpg" data-ngdesc="">Berlin 1</a>
+                <a href="hombre-virtiendo-taza-turquesa.jpg" data-ngthumb="hombre-virtiendo-taza-turquesa.jpg"
+                    data-ngdesc="">Berlin 1</a>
+                <a href="mujer-cafetera-italiana.jpg" data-ngthumb="mujer-cafetera-italiana.jpg" data-ngdesc="">Berlin
+                    1</a>
+                <a href="mujer-cara-taza-turquesa.jpg" data-ngthumb="mujer-cara-taza-turquesa.jpg" data-ngdesc="">Berlin
+                    1</a>
+                <a href="desayuno-taza-turquesa.jpg" data-ngthumb="desayuno-taza-turquesa.jpg" data-ngdesc="">Berlin
+                    1</a>
+                <a href="cafe-al-sol.jpg" data-ngthumb="cafe-al-sol.jpg" data-ngdesc="">Berlin 1</a>
+                <a href="hombre-virtiendo-taza-turquesa.jpg" data-ngthumb="hombre-virtiendo-taza-turquesa.jpg"
+                    data-ngdesc="">Berlin 1</a>
+                <a href="barista-usando-mastrenna.jpg" data-ngthumb="barista-usando-mastrenna.jpg" data-ngdesc="">Berlin
+                    1</a>
+                <a href="mujer-riendo-cafeteria.jpg" data-ngthumb="mujer-riendo-cafeteria.jpg" data-ngdesc="">Berlin
+                    1</a>
+                <a href="mujer-sonrisa-mirando-cafe.jpg" data-ngthumb="mujer-sonrisa-mirando-cafe.jpg"
+                    data-ngdesc="">Berlin
+                    1</a>
+            </div>
+
+        </div>
+
+        <!--Carousel Valores Desktop -->
+        <div id="carouselInfoDesktop" class="carousel slide carousel-custom text-center px-3 py-4 only-desktop"
+            data-bs-theme="dark">
+            <h3 class="text-center text-black mb-3">Nuestros valores</h3>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card custom-card bg-transparent border-0 d-flex flex-row" style="width: 50rem;">
+                        <div class="card bg-transparent border-0">
+                            <img src="images/Home/icono-eco.png" alt="" class="align-self-center">
+                            <div class="card-valores card-body text-black">
+                                <h3>Compromiso con <br>la comunidad</h3>
+                                <p>El 15% de nuestros ingresos mensuales van destinados al desarrollo de la comunidad,
+                                    apoyando proyectos barriales que ayuden a que las pequeñas cafeterías de
+                                    especialidad
+                                    sigan creciendo</p>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent border-0">
+                            <img src="images/Home/icono-checked.png" alt="" class="align-self-center">
+                            <div class="card-valores card-body text-black">
+                                <h3>100% Tostado <br>Importado</h3>
+                                <p>Contamos con la confianza de nuestros importadores cafetales, quienes hace quince
+                                    años
+                                    nos proveen de los mejores granos para que lleguen directo a tu mesa y a tu corazón
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card custom-card bg-transparent border-0 d-flex flex-row" style="width: 50rem;">
+                        <div class="card bg-transparent border-0">
+                            <img src="images/Home/icono-tostado.png" alt="" class="align-self-center">
+                            <div class="card-valores card-body text-black">
+                                <h3>Tostado <br>Inteligente</h3>
+                                <p>Nuestro proceso de tostado se realiza en pequeños baches para asegurarnos de obtener
+                                    el
+                                    mejor aroma y sabor de cada grano</p>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent border-0">
+                            <img src="images/Home/icono-grano.png" alt="" class="align-self-center">
+                            <div class="card-valores card-body text-black">
+                                <h3>Ecología <br>Primero</h3>
+                                <p>En Bay Coffe&#8482; tomamos muy en serio nuestro compromiso con el planeta: en el
+                                    2023
+                                    renovamos nuestros votos y apostamos por un 70% de reciclaje en el proceso de
+                                    tostado y
+                                    empaquetado</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators m-0">
+                <button type="button" data-bs-target="#carouselInfoDesktop" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselInfoDesktop" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselInfoDesktop"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselInfoDesktop"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--Carousel Valores Desktop -->
+
+        <!--Carousel Valores Mobile -->
+        <div id="carouselInfoMobile" class="carousel slide carousel-custom text-center px-3 py-4 only-mobile"
+            data-bs-theme="dark">
+            <h3 class="text-center text-black mb-3">Nuestros valores</h3>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card custom-card bg-transparent border-0" style="width: 18rem;">
+                        <div class="card bg-transparent border-0">
+                            <img src="images/Home/icono-eco.png" alt="" class="align-self-center mb-3">
+                            <div class="card-valores text-black">
+                                <h3>Compromiso con <br>la comunidad</h3>
+                                <p>El 15% de nuestros ingresos van destinados al desarrollo comunitario,
+                                    apoyando proyectos barriales que ayuden a que las pequeñas cafeterías de
+                                    especialidad
+                                    sigan creciendo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card custom-card bg-transparent border-0" style="width: 18rem;">
+                        <div class="card bg-transparent border-0">
+                            <img src="images/Home/icono-checked.png" alt="" class="align-self-center mb-3">
+                            <div class="card-valores text-black">
+                                <h3>100% Tostado <br>Importado</h3>
+                                <p>Contamos con la confianza de nuestros importadores cafetales, quienes hace quince
+                                    años
+                                    nos proveen de los mejores granos para que lleguen directo a tu mesa y a tu corazón
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card custom-card bg-transparent border-0" style="width: 18rem;">
+                        <div class="card bg-transparent border-0">
+                            <img src="images/Home/icono-tostado.png" alt="" class="align-self-center mb-3">
+                            <div class="card-valores text-black">
+                                <h3>Tostado <br>Inteligente</h3>
+                                <p>Nuestro proceso de tostado se realiza manualmente en pequeños baches para asegurarnos
+                                    de
+                                    obtener
+                                    el mejor aroma y sabor de cada grano, directo de nuestro local a tu mesa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card custom-card bg-transparent border-0" style="width: 18rem;">
+                        <div class="card bg-transparent border-0">
+                            <img src="images/Home/icono-grano.png" alt="" class="align-self-center mb-3">
+                            <div class="card-valores text-black">
+                                <h3>Ecología <br>Primero</h3>
+                                <p>En Bay Coffe&#8482; tomamos muy en serio nuestro compromiso con el planeta: en el
+                                    2023
+                                    renovamos nuestros votos y apostamos por un 70% de reciclaje en el proceso de
+                                    tostado y
+                                    empaquetado</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators mb-0">
+                <button type="button" data-bs-target="#carouselInfoMobile" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselInfoMobile" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselInfoMobile" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselInfoMobile" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselInfoMobile"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselInfoMobile"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--Carousel Valores Mobile -->
+
+        <!--Cards w/clients Desktop -->
+        <section class="carousel-clients px-3 py-4 text-center only-desktop">
+            <h3 class="m-0 pb-4 text-black">Nuestros clientes dicen</h3>
+
+            <div id="carouselClientsDesktop" class="carousel slide carousel-clients" data-bs-theme="dark">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active rounded-0">
+                        <div class="card custom-card bg-transparent border-0 d-flex flex-row justify-content-evenly"
+                            style="width: 70rem;">
+                            <div class="card bg-white rounded-0" style="width: 18rem;">
+                                <img src="images/Home/cliente-1.jpg" class="card-img-top rounded-0"
+                                    alt="Hombre sonriendo a la cámara">
+                                <div class="card-clientes card-body text-black">
+                                    <q class="card-text fst-italic text-start">En pandemia empecé a usar el servicio de
+                                        envío a
+                                        domicilio y me
+                                        sorprendió la rapidez con la que mi compra llegó a casa. En menos de un dia, ya
+                                        podía contar con mi bolsita de café lista para empezar feliz un nuevo dia,
+                                        ¡amamos
+                                        BayCoffee! 😎</q>
+                                </div>
+                            </div>
+                            <div class="card bg-white rounded-0" style="width: 18rem;">
+                                <img src="images/Home/cliente-2.jpg" class="card-img-top"
+                                    alt="Hombre con remera clara sacandose una foto">
+                                <div class="card-clientes card-body text-black">
+                                    <q class="card-text fst-italic text-start">Conocimos BayCoffee por recomendación de
+                                        unos
+                                        amigos y
+                                        no nos
+                                        fuimos más, definitivamente se siente la diferencia entre sus productos y otros
+                                        granos importados que probamos incluso estando de viaje... Si amas el buen café
+                                        no
+                                        lo dudes más!!</q>
+                                </div>
+                            </div>
+                            <div class="card bg-white rounded-0" style="width: 18rem;">
+                                <img src="images/Home/cliente-3.jpg" class="card-img-top"
+                                    alt="Mujer con pelo enrrulado mirando a la cámara">
+                                <div class="card-clientes card-body text-black">
+                                    <q class="card-text fst-italic text-start">El desayuno es mi comida preferida 😝 por
+                                        eso
+                                        cuando
+                                        termina el cuatrimestre y viajo a verla a mi mamá, llevo siempre sanguchitos de
+                                        miga
+                                        y BayCoffee asi aunque estoy lejos, me sigo sintiendo como en casa ☺️</q>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card custom-card bg-transparent border-0 d-flex flex-row justify-content-evenly"
+                            style="width: 70rem;">
+                            <div class="card bg-white rounded-0" style="width: 18rem;">
+                                <img src="images/Home/cliente-4.jpg" class="card-img-top"
+                                    alt="Mujer sonriente con anteojos saludando a la cámara">
+                                <div class="card-clientes card-body text-black">
+                                    <q class="card-text fst-italic text-start">Excelente variedad, precios razonables
+                                        (incluso a pesar
+                                        de ser
+                                        importados), delivery rápido y excelente atención, por eso y por más confiamos
+                                        en
+                                        BayCoffee para que nos acompañen cuando recién empezamos el dia y en nuestras
+                                        noches
+                                        de estudio</q>
+                                </div>
+                            </div>
+                            <div class="card bg-white rounded-0" style="width: 18rem;">
+                                <img src="images/Home/cliente-5.jpg" class="card-img-top"
+                                    alt="Mujer abrigada sosteniendo un vaso de café">
+                                <div class="card-clientes card-body text-black">
+                                    <q class="card-text fst-italic text-start">No hay nada mejor que empezar la mañana
+                                        con
+                                        una buena
+                                        taza de café,
+                                        es tan rico que terminé contagiandoles el entusiasmo a mis compañeros de trabajo
+                                        y
+                                        ahora
+                                        BayCoffee es nuestro principal proveedor de café! ¡Los viernes,
+                                        mañana de medialunas y cafecito! 💜</q>
+                                </div>
+                            </div>
+                            <div class="card bg-white rounded-0" style="width: 18rem;">
+                                <img src="images/Home/cliente-6.jpg" class="card-img-top"
+                                    alt="Mujer sonriente sosteniendo una taza y mirando a la cámara">
+                                <div class="card-clientes card-body text-black">
+                                    <q class="card-text fst-italic text-starts">Quería empezar a tomar un café distinto
+                                        que
+                                        el batido,
+                                        en una merienda probé BayCoffee y desde entonces es mi mejor aliado en las
+                                        peores
+                                        mañanas de lunes
+                                        y en las madrugadas interminables estudiando 🥹</q>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators m-0 mt-2">
+                    <button type="button" data-bs-target="#carouselClientsDesktop" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselClientsDesktop" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselClientsDesktop"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselClientsDesktop"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+        <!--Cards w/clients Desktop -->
+
+        <!--Cards w/clients Mobile -->
+        <section class="carousel-clients px-3 py-4 text-center only-mobile">
+            <h3 class="m-0 pb-4 text-black">Nuestros clientes dicen</h3>
+
+            <div id="carouselClientsMobile" class="carousel slide carousel-clients" data-bs-theme="dark">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card custom-card bg-transparent" style="width: 18rem;">
+                            <div class="card bg-white rounded-0" style="width: 18rem;">
+                                <img src="images/Home/cliente-1.jpg" class="card-img-top rounded-0"
+                                    alt="Hombre sonriendo a la cámara">
+                                <div class="card-clientes card-body text-black">
+                                    <q class="card-text fst-italic">En pandemia empecé a usar el servicio de envío a
+                                        domicilio y me
+                                        sorprendió la rapidez con la que mi compra llegó a casa. En menos de un dia, ya
+                                        podía contar con mi bolsita de café lista para empezar feliz un nuevo dia,
+                                        ¡amamos
+                                        BayCoffee! 😎</q>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item rounded-0">
+                        <div class="card custom-card bg-transparent rounded-0" style="width: 18rem;">
+                            <div class="card bg-white rounded-0" style="width: 18rem;">
+                                <img src="images/Home/cliente-2.jpg" class="card-img-top rounded-0"
+                                    alt="Hombre con remera clara sacandose una foto">
+                                <div class="card-clientes card-body text-black">
+                                    <q class="card-text fst-italic">Conocimos BayCoffee por recomendación de unos amigos
+                                        y
+                                        no nos
+                                        fuimos más, definitivamente se siente la diferencia entre sus productos y otros
+                                        granos importados que probamos incluso estando de viaje... Si amas el buen café
+                                        no
+                                        lo dudes más!!</q>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item rounded-0">
+                        <div class="card custom-card bg-transparent rounded-0" style="width: 18rem;">
+                            <div class="card bg-white rounded-0" style="width: 18rem;">
+                                <img src="images/Home/cliente-3.jpg" class="card-img-top rounded-0"
+                                    alt="Mujer con pelo enrrulado mirando a la cámara">
+                                <div class="card-clientes card-body text-black">
+                                    <q class="card-text fst-italic">El desayuno es mi comida preferida 😝 por eso cuando
+                                        termina el cuatrimestre y viajo a verla a mi mamá, llevo siempre sanguchitos de
+                                        miga
+                                        y BayCoffee asi aunque estoy lejos, me sigo sintiendo como en casa ☺️</q>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators m-0 mt-2">
+                    <button type="button" data-bs-target="#carouselClientsMobile" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselClientsMobile" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselClientsMobile" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselClientsMobile"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselClientsMobile"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+        <!--Cards w/clients Mobile -->
+    </main>
+
+    <footer class="bg-dark px-3 py-4">
+        <h3 class="header-footer ps-2 pb-3 m-0">Gracias por elegirnos 🩵</h3>
+        <hr style="color: white;">
+
+        <div class="footer-info">
+            <div class="container mb-3">
+                <div class="row">
+                    <div class="container">
+                        <div id="footer-about" class="mt-3 mb-3">
+                            <h4 id="footer-title" class="">Sobre BayCoffe&#8482</h4>
+                            <ul
+                                class="list-group flex-column list-group-flush list-unstyled link-underline-opacity-0 link-opacity-75-hover">
+                                <li class="list-group-item border-0 bg-dark ps-0 ms-0">
+                                    <a href="" target="new" class="link-light">About us</a>
+                                </li>
+                                <li class="list-group-item border-0 bg-dark ps-0 ms-0">
+                                    <a href="" target="new" class="link-light">Productos</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="footer-ayuda" class="mb-3">
+                            <h4 id="footer-title" class="">Ayuda</h4>
+                            <ul
+                                class="list-group flex-column list-group-flush list-unstyled link-underline-opacity-0 link-opacity-75-hover">
+                                <li class="list-group-item border-0 bg-dark ps-0 ms-0">
+                                    <a href="contacto.html" class="link-light">Contactanos</a>
+                                </li>
+                                <li class="list-group-item border-0 bg-dark ps-0 ms-0">
+                                    <a href="" target="new" class="link-light">Preguntas Frecuentes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container mb-3 contacto">
+                        <h4 class="m-0 p-0 pb-3">Sigamos en contacto</h4>
+                        <ul class="m-0 p-0 row">
+                            <li class="ps-0 col py-2"><a href="https://www.instagram.com/" target="_blank">
+                                    <img src="images/Footer/logo-ig-white.png" alt="Logo de Instagram"></a></li>
+                            <li class="col py-2"><a href="https://www.facebook.com/" target="_blank">
+                                    <img src="images/Footer/logo-fb-white.png" alt="Logo de Facebook"></a></li>
+                            <li class="col py-2"><a href="https://www.twitter.com/" target="_blank">
+                                    <img src="images/Footer/logo-tw-white.png" alt="Logo de Twitter"></a></li>
+                            <li class="pe-0 col py-2"><a href="https://www.spotify.com/" target="_blank">
+                                    <img src="images/Footer/logo-spotify-white.png" alt="Logo de Spotify"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr style="color: white;">
+            <div class="container text-light pt-3">
+                <h4 class="m-0 p-0 pb-2">Diseñado y programado con 💜 por</h4>
+                <ul class="ps-0 ms-0">
+                    <li class="text-danger sunmora">Isabella Canale</li>
+                    <li class="text-warning sunmora">Beska Martinez</li>
+                    <li class="text-success sunmora">Iara Vicent</li>
+                    <li class="text-primary sunmora">Florencia Vilchez</li>
+                </ul>
+                <p>ORT - Desarrollo II y Programación II <br>
+                    1°2°B 2023</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

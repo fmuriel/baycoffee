@@ -1,0 +1,439 @@
+@import url("https://www.fonts.com/font/ardyanatypes/the-sunmora/black");
+@keyframes promoBlockIcon {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes headerEntrance {
+    0% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-family: "sunmora", serif;
+    font-size: 50px;
+    animation: headerEntrance 1s ease-in 0s 1 normal forwards;
+}
+
+.sunmora {
+    font-family: "sunmora", serif;
+    font-size: 25px;
+}
+
+h3 {
+    color: #4cbbbe;
+    font-size: x-large;
+}
+
+body,
+h3 {
+    font-family: "Helvetica", saneader-footers-serif;
+}
+
+.header-footer {
+    font-family: "sunmora", serif;
+    font-size: 50px;
+}
+
+h4 {
+    font-family: "sunmora", serif;
+    color: #4cbbbe;
+}
+#prod-text{
+    font-size: 16px;
+    margin-bottom: 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+#banner-about {
+    background-image: url("../images/About/hero-about.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    font-family: sunmora;
+}
+
+@media screen and (max-width: 414px) {
+    #banner {
+        height: 400px;
+    }
+}
+
+#about-1 {
+    background-image: url("../images/About/banner-about1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+}
+
+#about-2 {
+    background-image: url("../images/About/banner-about2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+}
+
+@media screen and (max-width: 769px) {
+    #about-1,
+    #about-2 {
+        height: 200px;
+    }
+}
+
+.no-pm {
+    padding: 0;
+    margin: 0;
+}
+
+.hidden--visually {
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.examples-store {
+    display: flex;
+    flex-direction: column;
+}
+
+.coffee-cards-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 769px) {
+    .coffee-cards-container {
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+.coffee-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 769px) {
+    .coffee-cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .coffee-cards {
+        margin-bottom: 0;
+    }
+
+    .coffee-cards-container div:first-child {
+        margin-right: 1rem;
+    }
+}
+
+.custom-card {
+    margin: 0 auto 0 auto;
+}
+
+.promo-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    color: white;
+    background-color: #4cbbbe;
+}
+
+.promo-block img {
+    animation: promoBlockIcon 1s ease-in 0s 1 normal forwards;
+}
+
+@media screen and (min-width: 769px) {
+    .only-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .only-desktop {
+        display: none;
+    }
+}
+
+.setup-background {
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 769px) {
+    .setup-background {
+        height: 60vh;
+    }
+}
+
+.hero-src {
+    background-image: url("../images/Home/hero-mobile.jpg");
+}
+
+@media screen and (min-width: 770px) and (max-width: 1026px) {
+    .hero-src {
+        background-image: url("../images/Home/hero-tablet.jpg");
+    }
+}
+
+@media screen and (min-width: 1027px) {
+    .hero-src {
+        background-image: url("../images/Home/hero-desktop.jpg");
+    }
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-shop,
+.card-about,
+.card-valores,
+.card-clientes{
+    display: flex;
+    flex-direction: column;
+    min-height: 240px;
+}
+
+.card-shop{
+    min-height: 230px;
+}
+
+.card-about{
+    min-height: 255px;
+}
+
+.card-valores{
+    min-height: 210px
+}
+
+.card-clientes{
+    min-height: 250px;
+}
+
+.card-body ul {
+    list-style-type: none;
+}
+
+.carousel-custom {
+    background-color: #f3f3f3;
+}
+
+.carousel-indicators {
+    position: unset;
+}
+
+.carousel-clients {
+    background-color: #4cbbbe;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 769px) {
+    .footer-info {
+        display: flex;
+    }
+
+    .contacto ul {
+        width: 50%;
+    }
+}
+
+.gallery {
+    background-color: #facf7b;
+}
+
+.gallery p{
+    margin: 0 1rem 1rem 1rem;
+}
+
+@media screen and (min-width: 769px) {
+.gallery p{
+    margin: 0 3rem 1rem 3rem;
+}
+}
+
+@media screen and (min-width: 769px) {
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        align-content: start;
+    }
+}
+
+#rrss-icon-aqua {
+    height: 52px;
+    width: 52px;
+}
+
+#icon-black {
+    height: 28px;
+    width: 28px;
+}
+
+#rrss-icon-white {
+    height: 38px;
+    width: 38px;
+}
+
+#banner-contacto {
+    background-image: url("../images/Contacto/banner-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    font-family: sunmora;
+}
+
+@media screen and (max-width: 414px) {
+    #banner-contacto {
+        height: 400px;
+    }
+}
+#newsletter {
+    background: url("../images/Contacto/foto-newsletter.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn:hover {
+    box-shadow: 0 0 8px #00bcd4;
+}
+
+#banner-faqs{
+    background-image: url('../images/Faqs/hero-faqs.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    font-family: sunmora;
+}
+
+@media screen and (max-width: 414px) {
+    #banner-contacto {
+        height: 400px;
+    }
+}
+
+#color-title {
+    color: #4cbbbe;
+}
+
+#footer-title {
+    font-family: sunmora;
+    color: #4cbbbe;
+}
+
+.sucursales{
+    margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 769px) {
+    #form {
+        align-self: center;
+        width: 50rem;
+    }
+
+    .sedes{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sucursales{
+        margin-top: 0;
+    } 
+} 
+
+@media screen and (max-width: 414px) {
+    #banner {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #smartcart1 {
+        display: none;
+        align-items: end;
+    }
+}
+@media screen and (max-width: 768px) {
+    #smartcart {
+        display: none 
+    }
+}
+
+#banner-shop{
+    background-image: url('../images/Shop/banner-producto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    font-family: sunmora;
+}
+
+.icono-grano{
+    width: 15px;
+}
+
+.nav-link:hover{
+    color: #4cbbbe !important;
+}
