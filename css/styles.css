@@ -511,6 +511,7 @@ footer {
     width: 70px;
 }
 
-.img-coffee-bags {
+.img-coffee-bags,
+.coffee-card {
     max-width: 300px;
 }
