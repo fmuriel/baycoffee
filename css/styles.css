@@ -1,6 +1,6 @@
 @font-face {
     font-family: sunmora;
-    src: url('fonts/sunmora.ttf');
+    src: url("fonts/sunmora.ttf");
 }
 
 @keyframes promoBlockIcon {
@@ -28,31 +28,31 @@
 }
 
 @keyframes rrss {
-	0% {
-		animation-timing-function: ease-out;
-		transform: scale(1);
-		transform-origin: center center;
-	}
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
 
-	10% {
-		animation-timing-function: ease-in;
-		transform: scale(0.91);
-	}
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
 
-	17% {
-		animation-timing-function: ease-out;
-		transform: scale(0.98);
-	}
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
 
-	33% {
-		animation-timing-function: ease-in;
-		transform: scale(0.87);
-	}
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
 
-	45% {
-		animation-timing-function: ease-out;
-		transform: scale(1);
-	}
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
 }
 
 * {
@@ -93,10 +93,9 @@ h4 {
     font-family: "sunmora", serif;
     color: #4cbbbe;
 }
-#prod-text{
+#prod-text {
     font-size: 16px;
     margin-bottom: 0px;
-
 }
 
 a {
@@ -203,11 +202,11 @@ li {
 }
 
 @media screen and (max-width: 769px) {
-    .coffee-cards{
+    .coffee-cards {
         align-items: center;
     }
 
-    .coffee-cards .card{
+    .coffee-cards .card {
         max-width: 300px;
     }
 }
@@ -282,25 +281,25 @@ li {
 .card-shop,
 .card-about,
 .card-valores,
-.card-clientes{
+.card-clientes {
     display: flex;
     flex-direction: column;
     min-height: 240px;
 }
 
-.card-shop{
+.card-shop {
     min-height: 230px;
 }
 
-.card-about{
+.card-about {
     min-height: 255px;
 }
 
-.card-valores{
-    min-height: 210px
+.card-valores {
+    min-height: 210px;
 }
 
-.card-clientes{
+.card-clientes {
     min-height: 250px;
 }
 
@@ -339,14 +338,20 @@ footer {
     background-color: #facf7b;
 }
 
-.gallery p{
+.gallery p {
     margin: 0 1rem 1rem 1rem;
 }
 
 @media screen and (min-width: 769px) {
-.gallery p{
-    margin: 0 3rem 1rem 3rem;
+    .gallery p {
+        margin: 0 3rem 1rem 3rem;
+    }
 }
+
+@media screen and (max-width: 769px) {
+    .gallery p {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -400,8 +405,8 @@ footer {
     box-shadow: 0 0 8px #00bcd4;
 }
 
-#banner-faqs{
-    background-image: url('../images/Faqs/hero-faqs.jpg');
+#banner-faqs {
+    background-image: url("../images/Faqs/hero-faqs.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -425,7 +430,7 @@ footer {
     color: #4cbbbe;
 }
 
-.sucursales{
+.sucursales {
     margin-top: 1.5rem;
 }
 
@@ -435,35 +440,37 @@ footer {
         width: 50rem;
     }
 
-    .sedes{
+    .sedes {
         display: flex;
         flex-direction: row;
     }
 
-    .sucursales{
+    .sucursales {
         margin-top: 0;
-    } 
-} 
+    }
+}
 
 @media screen and (max-width: 414px) {
     #banner {
         height: 400px;
     }
 }
+
 @media screen and (min-width: 768px) {
     #smartcart1 {
         display: none;
         align-items: end;
     }
 }
+
 @media screen and (max-width: 768px) {
     #smartcart {
-        display: none 
+        display: none;
     }
 }
 
-#banner-shop{
-    background-image: url('../images/Shop/banner-producto.jpg');
+#banner-shop {
+    background-image: url("../images/Shop/banner-producto.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -472,38 +479,38 @@ footer {
     font-family: sunmora;
 }
 
-.icono-grano{
+.icono-grano {
     width: 20px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #4cbbbe !important;
 }
 
-.rrss-link{
+.rrss-link {
     width: 40px;
 }
 
-.rrss-link:hover{
+.rrss-link:hover {
     border-radius: 10%;
-animation: rrss 1s ease 0s 1 reverse forwards;
-box-shadow: -1px -2px 27px -2px rgba(76,187,190,0.99);
--webkit-box-shadow: -1px -2px 27px -2px rgba(76,187,190,0.99);
--moz-box-shadow: -1px -2px 27px -2px rgba(76,187,190,0.99);
+    animation: rrss 1s ease 0s 1 reverse forwards;
+    box-shadow: -1px -2px 27px -2px rgba(76, 187, 190, 0.99);
+    -webkit-box-shadow: -1px -2px 27px -2px rgba(76, 187, 190, 0.99);
+    -moz-box-shadow: -1px -2px 27px -2px rgba(76, 187, 190, 0.99);
 }
 
-.rrss-spotify:hover{
-        border-radius: 50%;
+.rrss-spotify:hover {
+    border-radius: 50%;
 }
 
-.bc-icon{
+.bc-icon {
     width: 200px;
 }
 
-.icono-valores{
+.icono-valores {
     width: 70px;
 }
 
-.img-coffee-bags{
+.img-coffee-bags {
     max-width: 300px;
 }
