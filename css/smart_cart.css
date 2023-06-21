@@ -96,6 +96,7 @@
 
 
 .sc-product-item {
+    max-width: 300px;
     position: relative;
 }
 
