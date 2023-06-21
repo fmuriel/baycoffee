@@ -36,8 +36,8 @@
 
     prod[4] = [];
     prod[4] ['foto'] = 'item-verona.jpg';
-    prod[4] ['alt'] = 'Caffé Verona';
-    prod[4] ['nombre'] = 'Caffé <br>Verona';
+    prod[4] ['alt'] = 'Café Verona';
+    prod[4] ['nombre'] = 'Café <br>Verona';
     prod[4] ['estrellas'] = '<span style="font-size: 16px"> <i class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i class="bi me-1 bi-star-fill"></i><i class="bi bi-star"></i></span>';
     prod[4] ['precio'] ='2500';
     prod[4] ['tost-text'] = 'Intenso';
