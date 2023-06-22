@@ -296,7 +296,7 @@ li {
 }
 
 .card-about {
-    min-height: 255px;
+    min-height: 280px;
 }
 
 .card-valores {
@@ -342,19 +342,15 @@ footer {
     background-color: #facf7b;
 }
 
-.gallery p {
+.gallery p,
+.examples-desc {
     margin: 0 1rem 1rem 1rem;
 }
 
 @media screen and (min-width: 769px) {
-    .gallery p {
+    .gallery p,
+    .examples-desc {
         margin: 0 3rem 1rem 3rem;
-    }
-}
-
-@media screen and (max-width: 769px) {
-    .gallery p {
-        text-align: center;
     }
 }
 
@@ -527,5 +523,16 @@ footer {
 @media screen and (min-width: 768px) {
 .carrito-acumulator{
     margin-bottom: 0;
+}
+
+.examples-desc,
+.gallery-desc{
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 768px) {
+.card-about-especialidad{
+    margin-top: 2rem;
 }
 }
